@@ -1,9 +1,11 @@
 package Main;
 
+//This is just for an auction item object, very simple and not much other than getters and setters
 public class AuctionItem {
 	
 	private String itemName;
 	private int itemValue;
+	//I use this to determine if the item was bought yet
 	private boolean inStock;
 
 	public AuctionItem() {
@@ -16,6 +18,7 @@ public class AuctionItem {
 		inStock = true;
 	}
 	
+	//Setters
 	public void setName(String name) {
 		itemName = name;
 	}
@@ -28,6 +31,7 @@ public class AuctionItem {
 		inStock = value;
 	}
 	
+	//Getters
 	public String getName() {
 		return itemName;
 	}
